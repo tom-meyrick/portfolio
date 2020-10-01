@@ -22,7 +22,8 @@
   },
   "devDependencies": {
     "prettier": "2.1.2",
-    "tailwindcss": "^1.8.10"
+    "tailwindcss": "^1.8.10",
+    "tailwindcss-textshadow": "^2.1.3"
   },
   "keywords": [
     "gatsby"
