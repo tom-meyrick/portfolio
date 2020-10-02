@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/Layout"
 import Hero from "../components/hero"
 import Projects from "../components/projects"
+import About from "../components/about"
+import Contact from "../components/contact"
 import { graphql, useStaticQuery } from "gatsby"
 
 export default () => {
@@ -30,6 +32,7 @@ export default () => {
   return (
     <Layout>
       <Hero />
+      <About />
       {projects.map(({ node: project }) => {
         const title = project.title
         const description = project.description
@@ -46,6 +49,7 @@ export default () => {
           />
         )
       })}
+      <Contact />
     </Layout>
   )
 }

@@ -1,7 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Link from "gatsby"
-import Header from "../components/Header"
+import Header from "../components/header"
+import Footer from "../components/footer"
 
 const Layout = ({ children }) => {
   return (
@@ -13,7 +14,7 @@ const Layout = ({ children }) => {
     >
       <Header />
       <main>{children}</main>
-      <footer>Footer</footer>
+      <Footer />
     </div>
   )
 }

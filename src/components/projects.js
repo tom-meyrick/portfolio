@@ -8,14 +8,14 @@ const Projects = ({ title, description, image, code, url }) => {
   return (
     <section>
       <div class="container mx-auto text-md">
-        <div class="px-10 py-20 m-10 flex flex-start flex-col">
+        <div class="px-10 py-10 m-10 flex flex-start flex-col">
           <div class="flex">
             <div class="m-5 w-1/2">
               <h2 class="font-italic">{title}</h2>
               <p class="m-5">{description}</p>
             </div>
             <div class="m-5 w-1/2">
-              <img src={image} alt="iScream"></img>
+              <img fixed={image} alt="iScream"></img>
               <p>{code}</p>
               <p>{url}</p>
             </div>
