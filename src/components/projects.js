@@ -9,7 +9,6 @@ const Projects = ({ title, description, image, code, url }) => {
     <section>
       <div class="container mx-auto text-md">
         <div class="px-10 py-20 m-10 flex flex-start flex-col">
-          <h2 class="font-bold">Projects</h2>
           <div class="flex">
             <div class="m-5 w-1/2">
               <h2 class="font-italic">{title}</h2>
