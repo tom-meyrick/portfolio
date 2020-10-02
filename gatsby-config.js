@@ -11,15 +11,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/content/images`,
         postCssPlugins: [require("tailwindcss")("./tailwind.config.js")],
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `hero`,
-        path: `./data`,
+        name: `projects`,
+        path: `${__dirname}/src/content`,
       },
     },
     `gatsby-transformer-sharp`,

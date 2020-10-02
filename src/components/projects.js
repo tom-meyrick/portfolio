@@ -15,7 +15,7 @@ const Projects = ({ title, description, image, code, url }) => {
               <p class="m-5">{description}</p>
             </div>
             <div class="m-5 w-1/2">
-              <img fixed={image} alt="iScream"></img>
+              <Image fixed={image} alt={title}></Image>
               <p>{code}</p>
               <p>{url}</p>
             </div>
