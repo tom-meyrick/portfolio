@@ -19,7 +19,7 @@ export default () => {
             image {
               childImageSharp {
                 fluid {
-                  srcSet
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
