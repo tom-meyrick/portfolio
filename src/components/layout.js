@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
+import About from "../components/About"
 
 const Layout = ({ children }) => {
   return (
@@ -13,6 +14,8 @@ const Layout = ({ children }) => {
     >
       <Header />
       <Hero />
+      <About />
+
       <main>{children}</main>
       <footer>Footer</footer>
     </div>
