@@ -1,0 +1,16 @@
+[
+  {
+    "title": "iScream",
+    "description": "An app for displaying the location of ice cream vans. Produced in a team of three in the final week of training with Develop Me.  As project manager I worked on the React, Redux and Axios elements in addition to overseeing the successful planning and completion of the task.",
+    "url": "https://tom-meyrick.github.io/iScream/#/",
+    "code": "https://github.com/tom-meyrick/iScream",
+    "image": "../src/images/iscream.png"
+  },
+  {
+    "title": "Umpire",
+    "description": "A mobile-first app to facilitate ping pong tournaments. Built solo following graduation. ",
+    "url": "https://tom-meyrick.github.io/umpire/#/",
+    "code": "https://github.com/tom-meyrick/umpire",
+    "image": "../src/images/umpire.png"
+  }
+]

@@ -15,7 +15,15 @@ module.exports = {
         postCssPlugins: [require("tailwindcss")("./tailwind.config.js")],
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `hero`,
+        path: `./data`,
+      },
+    },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

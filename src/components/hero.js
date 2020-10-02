@@ -8,7 +8,7 @@ const Hero = () => {
     <section>
       <div class="container text-xl font-bold text-center">
         <div class="px-10 py-20 m-10">
-          <p class="m-5">Full Stack Developer.</p>
+          <h1 class="m-5 text-6xl">Tom Meyrick</h1>
           <button class="bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded m-5">
             Work with me
           </button>

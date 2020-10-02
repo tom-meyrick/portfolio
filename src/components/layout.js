@@ -1,8 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Link from "gatsby"
 import Header from "../components/Header"
-import Hero from "../components/Hero"
-import About from "../components/About"
 
 const Layout = ({ children }) => {
   return (
@@ -13,9 +12,11 @@ const Layout = ({ children }) => {
       }}
     >
       <Header />
+
+      {/* <Header />
       <Hero />
       <About />
-
+      <Projects /> */}
       <main>{children}</main>
       <footer>Footer</footer>
     </div>
