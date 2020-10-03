@@ -1,7 +1,7 @@
 [
   {
     "title": "iScream",
-    "description": "An app for displaying the location of ice cream vans. Produced in a team of three in the final week of training with Develop Me.  As project manager I worked on the React, Redux and Axios elements in addition to overseeing the successful planning and completion of the task.",
+    "description": "An app for displaying the location of ice cream vans. Produced in a team of three in the final week of training with Develop Me.",
     "url": "https://tom-meyrick.github.io/iScream/#/",
     "code": "https://github.com/tom-meyrick/iScream",
     "image": "./images/iscream.jpg"
