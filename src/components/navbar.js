@@ -5,7 +5,7 @@ import React from "react"
 const Navbar = () => (
   <nav>
     <div class="container mx-auto px-6 py-2 flex justify-between items-center">
-      <a class="font-bold text-2xl lg:text-4xl" href="#">
+      <a class="text-2xl lg:text-4xl" href="#">
         SHMW
       </a>
       <div class="block lg:hidden">
@@ -28,12 +28,12 @@ const Navbar = () => (
             </a>
           </li>
           <li>
-            <a class="px-4 hover:text-gray-800" href="#">
+            <a class="px-4 hover:text-gray-300" href="#">
               About
             </a>
           </li>
           <li>
-            <a class="px-4 hover:text-gray-800" href="#">
+            <a class="px-4 hover:text-gray-300" href="#">
               Contact
             </a>
           </li>

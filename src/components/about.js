@@ -9,8 +9,8 @@ const About = () => {
       <div class="container mx-auto text-md">
         <div class="px-10 py-20 m-10 flex flex-start flex-col">
           <div>
-            <h2>About Me</h2>
-            <p class="m-5 w-1/2">
+            <h2 class="font-bold text-gray-500">About Me</h2>
+            <p class="m-5 w-1/2 text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
