@@ -15,7 +15,7 @@ const Projects = ({ title, description, image, code, url }) => {
               <p class="m-5">{description}</p>
             </div>
             <div class="m-5 w-1/2 h-10 w-10 ">
-              <Image fluid={image} alt={title} class="h-16 w-16"></Image>
+              <Image fluid={image} alt={title} class="border-4"></Image>
               <p>{code}</p>
               <p>{url}</p>
             </div>
