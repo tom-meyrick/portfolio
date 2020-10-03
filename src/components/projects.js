@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { navLinks, siteShortTitle } from "../config"
-import Img from "gatsby-image"
+import Image from "gatsby-image"
 
 const Projects = ({ title, description, image, code, url }) => {
   const { menu } = navLinks
@@ -14,8 +14,8 @@ const Projects = ({ title, description, image, code, url }) => {
               <h2 class="font-italic">{title}</h2>
               <p class="m-5">{description}</p>
             </div>
-            <div class="m-5 w-1/2">
-              <Img fixed={image} alt={title}></Img>
+            <div class="m-5 w-1/2 h-10 w-10 ">
+              <Image fluid={image} alt={title} class="h-16 w-16"></Image>
               <p>{code}</p>
               <p>{url}</p>
             </div>
