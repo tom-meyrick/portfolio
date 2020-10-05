@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { navLinks, siteShortTitle } from "../config"
+import { motion } from "framer-motion"
 
 const Hero = () => {
   const { menu } = navLinks
@@ -8,7 +9,7 @@ const Hero = () => {
   return (
     <section class="h-screen">
       <div class="container font-bold text-center bg-pattern flex h-screen">
-        <div class="px-10 pt-30 m-auto">
+        <motion.div class="px-10 pt-30 m-auto">
           <h1 class="m-5 text-6xl text-white font-bungee">Tom Meyrick</h1>
           <h1 class="m-5 text-6xl text-white font-bungee">
             Full Stack Developer
@@ -21,7 +22,7 @@ const Hero = () => {
           >
             Work with me
           </button>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
