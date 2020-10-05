@@ -6,8 +6,8 @@ const Hero = () => {
   const { menu } = navLinks
   return (
     <section class="h-screen">
-      <div class="container font-bold text-center bg-pattern h-screen">
-        <div class="px-10 pt-30 m-10">
+      <div class="container font-bold text-center bg-pattern flex h-screen">
+        <div class="px-10 pt-30 m-auto">
           <h1 class="m-5 text-6xl text-white font-bungee">Tom Meyrick</h1>
           <h1 class="m-5 text-6xl text-white font-bungee">
             Full Stack Developer

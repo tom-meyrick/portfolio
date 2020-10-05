@@ -30,6 +30,10 @@
   background-image: url("../content/images/just-waves.png");
 }
 
+.contact-pattern {
+  background-image: url("../content//images/texture.svg");
+}
+
 .font-anton {
   font-family: Anton, sans-serif;
 }

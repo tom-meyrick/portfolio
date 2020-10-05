@@ -28,17 +28,17 @@ const Navbar = () => (
             </Link>
           </li>
           <li>
-            <Link class="px-4 hover:text-gray-300" to="/#skills">
+            <Link class="px-4 font-bold" to="/#skills">
               Skills
             </Link>
           </li>
           <li>
-            <Link class="px-4 hover:text-gray-300" to="/#projects">
+            <Link class="px-4 font-bold" to="/#projects">
               Projects
             </Link>
           </li>
           <li>
-            <Link class="px-4 hover:text-gray-300" to="/#contact">
+            <Link class="px-4 font-bold" to="/#contact">
               Contact
             </Link>
           </li>
