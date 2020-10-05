@@ -5,6 +5,9 @@ module.exports = {
   },
   purge: ["./src/**/*.js"],
   theme: {
+    fontFamily: {
+      hind: ["hind", "sans-serif"],
+    },
     extend: {},
     container: {
       center: true,

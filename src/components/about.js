@@ -11,13 +11,12 @@ const About = () => {
           <div>
             <h2 class="font-bold text-gray-500">About Me</h2>
             <p class="m-5 w-1/2 text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Hi, I'm Tom. I used to work as a copywriter, now I'm a full stack
+              developer. I just graduated from Develop Me's intensive Coding
+              Fellowship programme, where I learned to code using a whole host
+              of utilities and frameworks - including React, Laravel and Redux.
+              Here you'll find some of my most recent projects. I'm currently
+              looking for work, so feel free to get in touch.
             </p>
           </div>
         </div>

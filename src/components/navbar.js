@@ -23,19 +23,19 @@ const Navbar = () => (
       <div class="hidden lg:block">
         <ul class="inline-flex">
           <li>
-            <a class="px-4 font-bold" href="/">
+            <Link class="px-4 font-bold" href="/">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="px-4 hover:text-gray-300" href="#">
+            <Link class="px-4 hover:text-gray-300" href="#about">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="px-4 hover:text-gray-300" href="#">
+            <Link class="px-4 hover:text-gray-300" href="#contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
