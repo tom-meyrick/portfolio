@@ -6,10 +6,7 @@ module.exports = {
   purge: ["./src/**/*.js"],
   theme: {
     fontFamily: {
-      hind: ["hind", "sans-serif"],
-      bungee: ["bungee", "sans-serif"],
-      monoton: ["monoton", "sans-serif"],
-      eczar: ["eczar", "serif"],
+      Anton: ["Anton", "sans-serif"],
     },
     extend: {},
     container: {

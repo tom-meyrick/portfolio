@@ -6,9 +6,9 @@ const Skills = () => {
   const { menu } = navLinks
   return (
     <section>
-      <div class="container mx-auto text-md h-screen pt-10">
+      <div class="container mx-auto text-md h-100 pt-10 px-10 pb-40">
         <div class="text-center pt-30">
-          <h1 class="text-5xl font-monoton py-10 pb-20">Skills</h1>
+          <h1 class="text-5xl font-anton py-10 pb-20">Skills</h1>
         </div>
         <div class="flex flex-row">
           <div class="w-1/4">
@@ -19,6 +19,9 @@ const Skills = () => {
                 <li>Gatsby</li>
                 <li>Laravel</li>
               </ul>
+              <div class="pt-20">
+                <span class="dot"></span>
+              </div>
             </div>
           </div>
           <div class="w-1/4">
@@ -33,6 +36,9 @@ const Skills = () => {
                 <li></li>
                 <li></li>
               </ul>
+              <div class="pt-20">
+                <span class="dot"></span>
+              </div>
             </div>
           </div>
           <div class="w-1/4">
@@ -47,6 +53,9 @@ const Skills = () => {
                 <li></li>
                 <li></li>
               </ul>
+              <div class="pt-20">
+                <span class="dot"></span>
+              </div>
             </div>
           </div>
           <div class="w-1/4">
@@ -61,6 +70,9 @@ const Skills = () => {
                 <li></li>
                 <li></li>
               </ul>
+              <div class="pt-20">
+                <span class="dot"></span>
+              </div>
             </div>
           </div>
         </div>
