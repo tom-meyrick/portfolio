@@ -34,7 +34,9 @@ export default () => {
       <Hero />
       <Skills />
       <div class="container mx-auto">
-        <h2 class="text-center text-5xl font-bold pb-20">Projects</h2>
+        <h2 class="text-center text-5xl font-bold pb-20" id="projects">
+          Projects
+        </h2>
         {projects.map(({ node: project }) => {
           const title = project.title
           const description = project.description

@@ -8,7 +8,7 @@ import GithubSVG from "../content/icons/github.svg"
 
 const Projects = () => {
   return (
-    <section>
+    <section id="contact">
       <div class="container mx-auto text-md bg-blue-200 text-white rounded">
         <div class="px-10 pt-20 m-10 flex flex-start flex-col">
           <div class="flex">

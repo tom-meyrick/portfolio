@@ -4,7 +4,7 @@ import { navLinks, siteShortTitle } from "../config"
 const Header = () => {
   const { menu } = navLinks
   return (
-    <nav>
+    <nav class="sticky-top-0">
       <div class="container mx-auto px-6 py-2 flex justify-end items-center">
         <div class="block lg:hidden">
           <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none">
@@ -26,17 +26,17 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link class="px-4 hover:text-gray-800" href="/about">
-                About
+              <Link class="px-4 hover:text-gray-800" href="/#skills">
+                Skills
               </Link>
             </li>
             <li>
-              <Link class="px-4 hover:text-gray-800" href="/projects">
+              <Link class="px-4 hover:text-gray-800" href="/#projects">
                 Projects
               </Link>
             </li>
             <li>
-              <Link class="px-4 hover:text-gray-800" href="contact">
+              <Link class="px-4 hover:text-gray-800" href="/#contact">
                 Contact
               </Link>
             </li>

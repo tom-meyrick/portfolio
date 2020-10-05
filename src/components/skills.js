@@ -5,8 +5,8 @@ import { navLinks, siteShortTitle } from "../config"
 const Skills = () => {
   const { menu } = navLinks
   return (
-    <section class="pl-20">
-      <div class="container mx-auto text-md h-100 pt-10 px-10 pb-40">
+    <section class="pl-20" id="skills">
+      <div class="container mx-auto text-md h-screen pt-10 px-10 pb-40">
         <div class="text-center pt-30">
           <h1 class="text-5xl font-anton py-10 pb-20 pr-20 font-bold">
             Skills
