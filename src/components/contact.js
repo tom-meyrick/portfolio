@@ -7,10 +7,14 @@ const Projects = () => {
   return (
     <section id="contact">
       <div class="container mx-auto text-md bg-blue-200 text-white rounded">
-        <div class="px-10 pt-20 m-10 flex flex-start flex-col">
+        <div class="pt-20 m-10">
           <div class="flex">
-            <div class="w-1/2 text-6xl font-anton flex-start">Contact</div>
+            <div class="w-1/2 text-6xl">Contact</div>
           </div>
+        </div>
+        <div class="m-10 pb-10 text-xl">
+          <p>I'm currently looking for new opportunities.</p>
+          <p>Feel free to get in touch for a chat.</p>
         </div>
       </div>
     </section>
