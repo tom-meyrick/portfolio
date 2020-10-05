@@ -34,7 +34,10 @@ export default () => {
       <Hero />
       <Skills />
       <div class="container mx-auto">
-        <h2 class="text-center text-5xl font-bold pb-20" id="projects">
+        <h2
+          class="text-center text-5xl font-bold pt-10 md:pt-0 md:pb-20"
+          id="projects"
+        >
           Projects
         </h2>
         {projects.map(({ node: project }) => {
