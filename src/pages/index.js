@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import Hero from "../components/hero"
 import Projects from "../components/projects"
-import About from "../components/about"
+import Skills from "../components/skills"
 import Contact from "../components/contact"
 import { graphql, useStaticQuery } from "gatsby"
 
@@ -32,7 +32,7 @@ export default () => {
   return (
     <Layout>
       <Hero />
-      <About />
+      <Skills />
       {projects.map(({ node: project }) => {
         const title = project.title
         const description = project.description

@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     fontFamily: {
       hind: ["hind", "sans-serif"],
+      bungee: ["bungee", "sans-serif"],
+      monoton: ["monoton", "sans-serif"],
+      eczar: ["eczar", "serif"],
     },
     extend: {},
     container: {

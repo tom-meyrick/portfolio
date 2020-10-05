@@ -23,22 +23,22 @@ const Navbar = () => (
       <div class="hidden lg:block">
         <ul class="inline-flex">
           <li>
-            <Link class="px-4 font-bold" href="/">
+            <Link class="px-4 font-bold" to="/">
               Home
             </Link>
           </li>
           <li>
-            <Link class="px-4 hover:text-gray-300" href="/#about">
-              About
+            <Link class="px-4 hover:text-gray-300" to="/#skills">
+              Skills
             </Link>
           </li>
           <li>
-            <Link class="px-4 hover:text-gray-300" href="/#projects">
+            <Link class="px-4 hover:text-gray-300" to="/#projects">
               Projects
             </Link>
           </li>
           <li>
-            <Link class="px-4 hover:text-gray-300" href="/#contact">
+            <Link class="px-4 hover:text-gray-300" to="/#contact">
               Contact
             </Link>
           </li>

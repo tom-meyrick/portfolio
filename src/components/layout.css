@@ -30,6 +30,22 @@
   background-image: url("../content/images/just-waves.png");
 }
 
+.skills-pattern {
+  background-image: url("../content/images/wov.png");
+}
+
 .font-hind {
   font-family: hind, sans-serif;
+}
+
+.font-monoton {
+  font-family: monoton, sans-serif;
+}
+
+.font-bungee {
+  font-family: bungee, sans-serif;
+}
+
+.font-eczar {
+  font-family: eczar, serif;
 }
