@@ -8,7 +8,7 @@ const Projects = ({ title, description, image, code, url }) => {
   return (
     <section>
       <div class="container mx-auto text-md w-2/4 shadow-md rounded">
-        <div class="px-10 py-20 m-10 flex flex-start flex-col">
+        <div class="px-10 py-20 flex flex-start flex-col bg-pattern">
           <div class="flex bg-gray-400 rounded shadow-lg">
             <div class="m-5 w-1/2 text-white">
               <h2 class="font-bold">{title}</h2>
