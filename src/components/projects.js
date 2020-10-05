@@ -10,7 +10,7 @@ const Projects = ({ title, description, image, code, url }) => {
   return (
     <section class="container">
       <div class="container mx-auto text-md w-1/3 shadow-md rounded">
-        <div class="px-10 flex flex-start">
+        <div class="px-10 flex flex-start pt-10">
           <h2 class="font-bold">{title}</h2>
           <p class="m-5">{description}</p>
         </div>
