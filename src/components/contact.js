@@ -12,6 +12,7 @@ const Projects = () => {
       <div
         class="container mx-auto text-md bg-blue-100 rounded p-20 md:p-0"
         data-aos="zoom-in"
+        data-aos-duration="800"
       >
         <div class="pt-20 m-10">
           <div class="flex flex-col md:flex-row">
