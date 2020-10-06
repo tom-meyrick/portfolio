@@ -5,6 +5,9 @@ import Projects from "../components/projects"
 import Skills from "../components/skills"
 import Contact from "../components/contact"
 import { graphql, useStaticQuery } from "gatsby"
+import AOS from "aos"
+import "aos/dist/aos.css"
+AOS.init()
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -16,13 +19,6 @@ export default () => {
             description
             url
             code
-            image {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }
@@ -43,14 +39,12 @@ export default () => {
         {projects.map(({ node: project }) => {
           const title = project.title
           const description = project.description
-          const image = project.image.childImageSharp.fluid
           const code = project.code
           const url = project.url
           return (
             <Projects
               title={title}
               description={description}
-              image={image}
               code={code}
               url={url}
             />

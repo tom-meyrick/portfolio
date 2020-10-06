@@ -16,10 +16,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="m-10 pb-10 text-l">
+        <div class="m-10 pb-10 text-xl">
           <p>I'm on the lookout for new opportunities.</p>
-          <p>Open to full time, temporary and freelance positions.</p>
-          <p>Feel free to get in touch for a chat.</p>
+          <p>Let's talk.</p>
         </div>
       </div>
     </section>
