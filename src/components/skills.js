@@ -1,6 +1,11 @@
-import React from "react"
+import React, { useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init()
+  }, [])
   return (
     <section class="pl-20" id="skills">
       <div class="container mx-auto text-md xl:h-screen lg:h-1/2 pt-10 md:px-10">
@@ -9,7 +14,11 @@ const Skills = () => {
             Skills
           </h1>
         </div>
-        <div class="flex flex-col md:flex-row">
+        <div
+          class="flex flex-col md:flex-row"
+          data-aos="fade-up"
+          data-aos-duration="150"
+        >
           <div class="md:w-1/4">
             <h3 class="text-2xl font-bold">Frameworks</h3>
             <div>

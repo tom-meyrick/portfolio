@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@nfront/global-styles": "^1.2.1",
+    "aos": "^3.0.0-beta.6",
     "babel-plugin-styled-components": "^1.11.1",
     "framer-motion": "^2.7.7",
     "gatsby": "^2.24.66",
