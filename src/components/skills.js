@@ -1,12 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
-import { navLinks, siteShortTitle } from "../config"
 import AOS from "aos"
 import "aos/dist/aos.css"
 AOS.init()
 
 const Skills = () => {
-  const { menu } = navLinks
   return (
     <section class="pl-20" id="skills">
       <div class="container mx-auto text-md xl:h-screen lg:h-1/2 pt-10 md:px-10">

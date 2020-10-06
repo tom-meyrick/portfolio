@@ -1,11 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-import { navLinks, siteShortTitle } from "../config"
 import { motion } from "framer-motion"
 
 const Hero = () => {
-  const { menu } = navLinks
-
   return (
     <section class="h-screen">
       <div class="container font-bold text-center bg-pattern flex h-screen">

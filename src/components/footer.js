@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { siteShortTitle } from "../config/index"
 import MailSVG from "../content/icons/mail.svg"
 import LinkedInSVG from "../content/icons/linkedin.svg"
 import GithubSVG from "../content/icons/github.svg"
@@ -17,6 +15,7 @@ const Footer = () => {
                 src={MailSVG}
                 class="h-10 w-10 m-10 rounded"
                 whileTap={{ scale: 0.4 }}
+                alt="email symbol"
               ></motion.img>
             </a>
           </li>
@@ -26,6 +25,7 @@ const Footer = () => {
                 src={LinkedInSVG}
                 class="h-10 w-10 m-10 rounded"
                 whileTap={{ scale: 0.4 }}
+                alt="linkedin-logo"
               ></motion.img>
             </a>
           </li>
@@ -35,6 +35,7 @@ const Footer = () => {
                 src={GithubSVG}
                 class="h-10 w-10 m-10 rounded"
                 whileTap={{ scale: 0.4 }}
+                alt="github-logo"
               ></motion.img>
             </a>
           </li>

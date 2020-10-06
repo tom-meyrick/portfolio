@@ -1,7 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { navLinks, siteShortTitle } from "../config"
-import Image from "gatsby-image"
 import Github from "../content/icons/github.svg"
 import LinkSVG from "../content/icons/link.svg"
 import { motion } from "framer-motion"
@@ -10,7 +7,6 @@ import "aos/dist/aos.css"
 AOS.init()
 
 const Projects = ({ title, description, code, url }) => {
-  const { menu } = navLinks
   return (
     <section class="container pt-10" data-aos="fade-up" data-aos-delay="200">
       <div class="container mx-auto text-md md:w-1/3 shadow-md rounded">
@@ -24,6 +20,7 @@ const Projects = ({ title, description, code, url }) => {
               whileTap={{ scale: 0.4 }}
               src={Github}
               class="w-10 h-10 mr-10"
+              alt="github-logo"
             ></motion.img>
           </a>
           <a href={url}>
@@ -31,6 +28,7 @@ const Projects = ({ title, description, code, url }) => {
               whileTap={{ scale: 0.4 }}
               src={LinkSVG}
               class="w-10 h-10 mr-10"
+              alt="link"
             ></motion.img>
           </a>
         </div>

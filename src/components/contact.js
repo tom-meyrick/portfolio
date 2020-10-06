@@ -1,7 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { navLinks, siteShortTitle } from "../config"
-import Image from "gatsby-image"
 import WaveSVG from "../content/icons/wave-hand-svgrepo-com.svg"
 
 const Projects = () => {
@@ -12,11 +9,15 @@ const Projects = () => {
           <div class="flex flex-col md:flex-row">
             <div class="sm:pb-10 w-1/2 text-6xl">Contact</div>
             <div class="hidden md:w-1/2 md:flex md:justify-end">
-              <img src={WaveSVG} class="w-25 h-25 mr-20"></img>
+              <img
+                src={WaveSVG}
+                class="w-25 h-25 mr-20"
+                alt="waving hand"
+              ></img>
             </div>
           </div>
         </div>
-        <div class="m-10 pb-10 text-xl">
+        <div class="m-10 pb-10 text-lg">
           <p>I'm on the lookout for new opportunities.</p>
           <p>Let's talk.</p>
         </div>
