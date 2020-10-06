@@ -19,7 +19,7 @@ const Hero = () => {
             whileTap={{ scale: 0.8 }}
             class="bg-white hover:bg-orange-400 text-blue-400 font-semibold hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded m-5"
             onClick={() => {
-              window.location.href = "mailto: tom_meyrick@hotmail.co.uk"
+              "mailto: tom_meyrick@hotmail.co.uk"
             }}
           >
             Work with me
