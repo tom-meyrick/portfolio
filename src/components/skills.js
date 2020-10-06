@@ -1,7 +1,4 @@
 import React from "react"
-import AOS from "aos"
-import "aos/dist/aos.css"
-AOS.init()
 
 const Skills = () => {
   return (
@@ -12,11 +9,7 @@ const Skills = () => {
             Skills
           </h1>
         </div>
-        <div
-          class="flex flex-col md:flex-row"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
+        <div class="flex flex-col md:flex-row">
           <div class="md:w-1/4">
             <h3 class="text-2xl font-bold">Frameworks</h3>
             <div>
