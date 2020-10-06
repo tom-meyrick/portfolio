@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 const Footer = () => {
   return (
     <footer className="flex bg-blue-200 container justify-center rounded">
-      <div class="">
+      <div>
         <ul class="flex">
           <li>
             <a href="mailto: tom_meyrick@hotmail.co.uk">

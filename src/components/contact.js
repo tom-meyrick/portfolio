@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <section id="contact">
       <div
-        class="container mx-auto text-md bg-blue-100 rounded p-20 md:p-0"
+        class="container mx-auto text-md bg-blue-100 rounded p-20 md:pt-0"
         data-aos="zoom-in"
         data-aos-duration="800"
       >
@@ -20,7 +20,7 @@ const Projects = () => {
             <div class="hidden md:w-1/2 md:flex md:justify-end">
               <img
                 src={WaveSVG}
-                class="w-25 h-25 mr-20"
+                class="w-25 h-25 mr-20 pt-20"
                 alt="waving hand"
               ></img>
             </div>
