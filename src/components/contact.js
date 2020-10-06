@@ -1,10 +1,18 @@
-import React from "react"
+import React, { useEffect } from "react"
 import WaveSVG from "../content/icons/wave-hand-svgrepo-com.svg"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init()
+  }, [])
   return (
     <section id="contact">
-      <div class="container mx-auto text-md bg-blue-100 rounded p-20 md:p-0">
+      <div
+        class="container mx-auto text-md bg-blue-100 rounded p-20 md:p-0"
+        data-aos="zoom-in"
+      >
         <div class="pt-20 m-10">
           <div class="flex flex-col md:flex-row">
             <div class="sm:pb-10 w-1/2 text-6xl">Contact</div>
