@@ -11,7 +11,7 @@ const Projects = ({ title, description, code, url }) => {
   }, [])
   return (
     <section
-      class="container pt-10 lg:h-auto lg:max-h-1/3 lg:p-10"
+      class="container pt-10 xl:h-auto xl:max-h-1/3 xl:p-10"
       data-aos="fade-up"
       data-aos-duration="800"
     >

@@ -32,7 +32,7 @@ export default () => {
       >
         Projects
       </h2>
-      <div class="container mx-auto md:flex md:flex-row">
+      <div class="container mx-auto xl:flex xl:flex-row">
         {projects.map(({ node: project }) => {
           const title = project.title
           const description = project.description

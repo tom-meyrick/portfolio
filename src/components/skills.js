@@ -8,7 +8,7 @@ const Skills = () => {
   }, [])
   return (
     <section class="pl-20" id="skills">
-      <div class="container mx-auto text-md xl:h-screen lg:h-1/2 pt-10 md:px-10">
+      <div class="container mx-auto text-md xl:h-screen xl:h-1/2 pt-10 md:px-10">
         <div class="text-center pt-30">
           <h1 class="text-5xl font-anton py-10 pb-20 pr-20 font-bold">
             Skills
