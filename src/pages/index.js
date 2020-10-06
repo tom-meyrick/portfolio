@@ -5,9 +5,6 @@ import Projects from "../components/projects"
 import Skills from "../components/skills"
 import Contact from "../components/contact"
 import { graphql, useStaticQuery } from "gatsby"
-import AOS from "aos"
-import "aos/dist/aos.css"
-AOS.init()
 
 export default () => {
   const data = useStaticQuery(graphql`
