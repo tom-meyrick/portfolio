@@ -10,8 +10,12 @@ const Projects = ({ title, description, code, url }) => {
     AOS.init()
   }, [])
   return (
-    <section class="container pt-10" data-aos="fade-up" data-aos-duration="150">
-      <div class="container mx-auto text-md md:w-1/3 shadow-md rounded">
+    <section
+      class="container pt-10 lg:h-auto lg:max-h-1/3 lg:p-10"
+      data-aos="fade-up"
+      data-aos-duration="150"
+    >
+      <div class="container mx-auto text-md shadow-md rounded">
         <div class="px-10 flex flex-start pt-10">
           <h2 class="font-bold">{title}</h2>
           <p class="m-5">{description}</p>

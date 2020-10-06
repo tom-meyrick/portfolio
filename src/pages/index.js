@@ -26,13 +26,13 @@ export default () => {
     <Layout>
       <Hero />
       <Skills />
-      <div class="container mx-auto">
-        <h2
-          class="text-center text-5xl font-bold pt-10 lg:pt-20 xl:pt-10 md:pb-20"
-          id="projects"
-        >
-          Projects
-        </h2>
+      <h2
+        class="text-center text-5xl font-bold pt-10 lg:pt-20 xl:pt-10 md:pb-20"
+        id="projects"
+      >
+        Projects
+      </h2>
+      <div class="container mx-auto md:flex md:flex-row">
         {projects.map(({ node: project }) => {
           const title = project.title
           const description = project.description

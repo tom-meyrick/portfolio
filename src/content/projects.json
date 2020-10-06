@@ -7,13 +7,13 @@
   },
   {
     "title": "Umpire",
-    "description": "A mobile-first app to facilitate ping pong tournaments. Built solo following graduation. ",
+    "description": "A mobile-first app designed for running on-the-go ping pong tournaments. Built in one week, using React-Redux and Tailwind.",
     "url": "https://tom-meyrick.github.io/umpire/#/",
     "code": "https://github.com/tom-meyrick/umpire"
   },
   {
     "title": "Brett's Vets",
-    "description": "A site for a vet's practise. Built with Laravel",
+    "description": "A site for an imagined vet's practise. Built with Laravel, it makes use of a Restful API, multiple databases and Laravel's Blade templating system.",
     "url": "https://bretts-vets.herokuapp.com/",
     "code": "https://github.com/tom-meyrick/vet-practise"
   }
