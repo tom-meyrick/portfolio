@@ -8,12 +8,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-plugin-global-styles`,
-      options: {
-        pathToConfigModule: `src/styles/GlobalStyleComponent`,
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
