@@ -13,7 +13,7 @@ const Projects = ({ title, description, code, url }) => {
     <section
       class="container pt-10 lg:h-auto lg:max-h-1/3 lg:p-10"
       data-aos="fade-up"
-      data-aos-duration="150"
+      data-aos-duration="800"
     >
       <div class="container mx-auto text-md shadow-md rounded">
         <div class="px-10 flex flex-start pt-10">
