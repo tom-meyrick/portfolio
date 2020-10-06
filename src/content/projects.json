@@ -13,7 +13,7 @@
   },
   {
     "title": "Brett's Vets",
-    "description": "A site for an imagined vet's practise. Built with Laravel, it makes use of a Restful API, multiple databases and Laravel's Blade templating system.",
+    "description": "A site for an imagined vet practise. Built with Laravel, it makes use of a Restful API, multiple databases and Laravel's Blade templating system.",
     "url": "https://bretts-vets.herokuapp.com/",
     "code": "https://github.com/tom-meyrick/vet-practise"
   }

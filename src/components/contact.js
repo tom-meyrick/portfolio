@@ -26,7 +26,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="m-10 pb-10 text-lg">
+        <div class="m-10 pb-10 text-xl">
           <p>I'm on the lookout for new opportunities.</p>
           <p>Let's talk.</p>
         </div>
